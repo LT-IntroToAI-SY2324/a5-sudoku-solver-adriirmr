@@ -142,7 +142,8 @@ second_moves = [
 ]
 
 b = Board()
-change first_moves to second_moves to play that game instead
+change first_moves to second_moves  to play that game instead
 for move in first_moves:
+
     b.update(*move)
 play_sudoku(b)
